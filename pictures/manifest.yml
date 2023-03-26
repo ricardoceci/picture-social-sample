@@ -21,7 +21,7 @@ spec:
       serviceAccountName: pictures-sa
       containers:
       - name: pictures
-        image: 111122223333.dkr.ecr.us-east-1.amazonaws.com/pictures
+        image: {IMAGE}
         resources:
           requests:
             memory: "256Mi"
