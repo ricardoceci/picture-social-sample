@@ -21,7 +21,7 @@ spec:
       serviceAccountName: pictures-sa
       containers:
       - name: pictures
-        image: {IMAGE}
+        image: ECR_IMAGE_PLACEHOLDER
         resources:
           requests:
             memory: "256Mi"
